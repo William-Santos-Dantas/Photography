@@ -22,7 +22,6 @@
 
 <script>
 export default {
-  name: "Hero",
   data() {
     return {
       items: [

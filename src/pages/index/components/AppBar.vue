@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-toolbar flat class="mainHeader">
-      <v-toolbar-title>Photography</v-toolbar-title>
+      <v-toolbar-title>Jutai F Dantas</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-xs-only">
         <v-btn text><router-link to="/">Home</router-link></v-btn>
@@ -40,7 +40,6 @@
 
 <script>
 export default {
-  name: "Header",
   data: () => ({}),
 };
 </script>
