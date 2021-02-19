@@ -37,7 +37,13 @@
 <script>
 export default {
   data: () => ({
-    icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"],
+    icons: [
+      "mdi-facebook",
+      "mdi-twitter",
+      "mdi-google-plus",
+      "mdi-linkedin",
+      "mdi-instagram",
+    ],
   }),
 };
 </script>
