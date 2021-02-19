@@ -1,6 +1,6 @@
 <template>
-  <v-content>
-    <Hero-Component />
+  <v-main>
+    <Hero-Component :image="image" text="About Us"/>
     <div class="block">
       <v-container>
         <p>
@@ -19,16 +19,19 @@
       </v-container>
     </div>
     <OurTeam-Component />
-  </v-content>
+  </v-main>
 </template>
 
 <script>
-import HeroComponent from "./components/Hero";
+import HeroComponent from "../Components/Hero";
 import OurTeamComponent from "./components/ourTeam";
 export default {
   components: {
     HeroComponent,
     OurTeamComponent,
   },
+  data: () => ({
+    image: 'img13.jpg',
+  }),
 };
 </script>

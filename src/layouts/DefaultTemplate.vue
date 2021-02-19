@@ -3,9 +3,9 @@
     <v-app-bar flat max-height="65" color="transparent">
         <AppBar-component/>
     </v-app-bar>
-    <v-content>
+    <v-main>
       <router-view></router-view>
-    </v-content>
+    </v-main>
     <Footer-component />
   </v-app>
 </template>
